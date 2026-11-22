@@ -1,0 +1,34 @@
+[
+  {
+    "name": "Supplied photos replace both examples; clinician text follows the clinic sign",
+    "status": "PASS"
+  },
+  {
+    "name": "Seven reference treatments have real photo assets and colour-coded front/back panels",
+    "status": "PASS"
+  },
+  {
+    "name": "Every card flips, hides inactive controls, supports Escape and restores button focus",
+    "status": "PASS"
+  },
+  {
+    "name": "Filtering resets flipped cards and preserves the correct treatment groups",
+    "status": "PASS"
+  },
+  {
+    "name": "Both supplied photographs open full-size and close accessibly",
+    "status": "PASS"
+  },
+  {
+    "name": "All card backs pass automated WCAG checks on desktop and mobile",
+    "status": "PASS"
+  },
+  {
+    "name": "Cards and metrics remain within the viewport at seven responsive widths",
+    "status": "PASS"
+  },
+  {
+    "name": "No fixed clinical-result guarantees, missing local assets or runtime exceptions",
+    "status": "PASS"
+  }
+]

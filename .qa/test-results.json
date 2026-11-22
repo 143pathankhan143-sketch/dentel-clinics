@@ -1,0 +1,58 @@
+[
+  {
+    "name": "Indian timezone, phone validation, Sunday hours and past-date protection",
+    "status": "PASS"
+  },
+  {
+    "name": "Correct clinic identity, phone, map coordinates and complete page sections",
+    "status": "PASS"
+  },
+  {
+    "name": "All treatment filters show the correct cards and restore the full list",
+    "status": "PASS"
+  },
+  {
+    "name": "Service details open and enquiries preselect the correct treatment",
+    "status": "PASS"
+  },
+  {
+    "name": "Appointment validation, Sunday-only time windows and unsent WhatsApp preview",
+    "status": "PASS"
+  },
+  {
+    "name": "FAQ accordion opens, closes and updates accessible state",
+    "status": "PASS"
+  },
+  {
+    "name": "Privacy notice is readable and closable by keyboard",
+    "status": "PASS"
+  },
+  {
+    "name": "No horizontal overflow at 320, 375, 390, 768, 1024 and 1440 pixels",
+    "status": "PASS"
+  },
+  {
+    "name": "Mobile navigation and sticky booking action work",
+    "status": "PASS"
+  },
+  {
+    "name": "WCAG 2.1 AA automated accessibility audit at 1440px",
+    "status": "PASS"
+  },
+  {
+    "name": "WCAG 2.1 AA automated accessibility audit at 390px",
+    "status": "PASS"
+  },
+  {
+    "name": "Dialog traps keyboard focus and returns it to the opener",
+    "status": "PASS"
+  },
+  {
+    "name": "Booking form and request-review dialog pass automated accessibility checks",
+    "status": "PASS"
+  },
+  {
+    "name": "No uncaught browser runtime errors",
+    "status": "PASS"
+  }
+]

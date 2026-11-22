@@ -1,0 +1,65 @@
+.clinic-photo-trigger {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  overflow: hidden;
+  background: transparent;
+}
+
+.clinic-photo-trigger:focus-visible { outline: 3px solid #fff; outline-offset: -7px; }
+.hero-image.clinic-portrait img { object-position: 50% 50%; }
+.hero-image.clinic-portrait figcaption { pointer-events: none; }
+.clinic-photo-expand { display: inline-flex; align-items: center; justify-content: center; gap: 6px; position: absolute; right: 16px; bottom: 16px; padding: 8px 10px; background: #fffffff2; color: #244b7f; border: 1px solid #dce6f2; border-radius: 6px; font-size: 9px; line-height: 1.4; box-shadow: 0 3px 12px #1125441a; }
+.hero-image.clinic-portrait .clinic-photo-expand { bottom: 47px; right: 16px; border-radius: 50%; padding: 8px; }
+.hero-image.clinic-portrait .clinic-photo-expand > svg { width: 15px; height: 15px; }
+.clinic-photo-trigger:hover .clinic-photo-expand { background: #eaf2ff; }
+.about-visual.clinic-visual { padding: 0; }
+.about-visual.clinic-visual .about-image { height: 410px; border-radius: 17px 85px 17px 17px; }
+.about-visual.clinic-visual .about-image img { object-position: center; }
+.about-visual.clinic-visual .about-image figcaption { max-width: calc(100% - 135px); font-size: 8px; line-height: 1.7; pointer-events: none; }
+.clinic-specialists { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 13px; margin-top: 16px; }
+.clinic-specialist { display: flex; flex-direction: column; min-width: 0; padding: 17px 16px; background: #fff; border: 1px solid #dfe8f3; border-radius: 10px; }
+.clinic-specialist h3 { color: #254b7b; font-size: 13px; font-weight: 600; line-height: 1.5; }
+.clinic-specialist .clinician-qualification { color: #4e688b; font-size: 9px; font-weight: 500; margin-top: 5px; }
+.clinic-specialist > p:last-child { color: #5d708b; font-size: 9px; line-height: 1.8; margin-top: 5px; }
+.modal.photo-modal { width: 940px; max-width: calc(100% - 36px); background: #fff; }
+.photo-modal .modal-inner { padding: 15px; }
+.photo-modal .modal-close { background: #fff; color: #244b7b; box-shadow: 0 2px 12px #142a4a24; }
+.clinic-lightbox { margin: 0; border-radius: 10px; overflow: hidden; background: #101e2f; }
+.clinic-lightbox > img { display: block; width: 100%; height: min(72dvh, 740px); object-fit: contain; }
+.clinic-lightbox > figcaption { padding: 17px 20px; background: #fff; }
+.clinic-lightbox .eyebrow { font-size: 9px; }
+.clinic-lightbox figcaption p { color: #5f738e; font-size: 11px; line-height: 1.8; margin-top: 6px; }
+
+@media (max-width: 1050px) {
+  .about-visual.clinic-visual .about-image { height: 365px; border-top-right-radius: 65px; }
+  .clinic-specialists { gap: 9px; }
+  .clinic-specialist { padding: 14px 12px; }
+  .clinic-specialist h3 { font-size: 11px; }
+  .clinic-specialist .clinician-qualification, .clinic-specialist > p:last-child { font-size: 8px; }
+}
+
+@media (max-width: 700px) {
+  .about-visual.clinic-visual .about-image { height: auto; aspect-ratio: 1.19; border-top-right-radius: 65px; }
+  .clinic-specialists { gap: 11px; margin-top: 14px; }
+  .clinic-specialist { padding: 16px 14px; }
+  .clinic-specialist h3 { font-size: 12px; }
+  .clinic-specialist .clinician-qualification, .clinic-specialist > p:last-child { font-size: 8.5px; }
+  .about-visual.clinic-visual .about-image figcaption { max-width: calc(100% - 70px); font-size: 7.5px; }
+  .about-visual.clinic-visual .clinic-photo-expand { width: 30px; height: 30px; padding: 6px; border-radius: 50%; }
+  .about-visual.clinic-visual .clinic-photo-expand > span { display: none; }
+  .modal.photo-modal { max-width: calc(100% - 20px); }
+  .photo-modal .modal-inner { padding: 9px; }
+  .clinic-lightbox > img { height: min(69dvh, 650px); }
+  .clinic-lightbox > figcaption { padding: 15px 12px; }
+  .clinic-lightbox .eyebrow { font-size: 8px; }
+  .clinic-lightbox figcaption p { font-size: 10px; }
+}
+
+@media (max-width: 360px) {
+  .clinic-specialist { padding: 14px 11px; }
+  .clinic-specialist h3 { font-size: 11px; }
+  .clinic-specialist .clinician-qualification, .clinic-specialist > p:last-child { font-size: 8px; }
+}
